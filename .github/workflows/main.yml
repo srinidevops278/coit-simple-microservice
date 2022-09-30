@@ -31,11 +31,11 @@ jobs:
      
       - name: Build the container Image
         run: | 
-          pwd
-          ls -a
+          cd coit-frontend
+          
       - name: Build the container Image
         run: |
-          cd ..
-          ls
+          pwd
+          
         
  
