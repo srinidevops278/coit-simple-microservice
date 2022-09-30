@@ -35,14 +35,13 @@ jobs:
         
         run: | 
           cd ../..
-          find / -name "coit-frontend"
-          ls
-          pwd
+          
+          
          
           
       - name: Build the container Image
         run: |
-          pwd
+          find / -name "coit-frontend"
           
         
  
