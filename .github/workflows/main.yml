@@ -30,7 +30,7 @@ jobs:
 
      
       - name: Build the container Image
-        working-directory: /home/runner/work/coit-simple-microservice/coit-frontend
+        working-directory: srinidevops278/coit-simple-microservice/coit-frontend
         run: | 
           ls
           pwd
