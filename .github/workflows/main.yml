@@ -30,7 +30,7 @@ jobs:
 
      
       - name: Build the container Image
-        working-directory: ./coit-frontend
+        working-directory: coit-frontend
         run: | 
           ls
           pwd
