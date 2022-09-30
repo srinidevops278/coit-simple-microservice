@@ -6,9 +6,9 @@
 on:
   # Triggers the workflow on push or pull request events but only for the "develop" branch
   push:
-    branches: [ "develop" ]
+    branches: [ 'develop' ]
   pull_request:
-    branches: [ "develop" ]
+    branches: [ 'develop' ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,10 +27,8 @@ jobs:
           
       - name: Build the container Image
         run: | 
-          docker build coit-frontend -t 953533/coit-frontend:latest -f coit-frontend/Dockerfile-multistage
+          docker build coit-frontend -t 953533/coit-frontend:latest -f coit-frontend/Dockerfile-multistagee 
           
       - name: Push the container Image
         run: | 
           docker push 953533/coit-frontend:latest
-          
-          
