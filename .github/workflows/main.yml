@@ -34,6 +34,7 @@ jobs:
       - name: Build the container Image
         
         run: | 
+          sudo find / -name "coit-frontend"
           cd ../..
           
           
@@ -41,7 +42,7 @@ jobs:
           
       - name: Build the container Image
         run: |
-          find / -name "coit-frontend"
+          sudo find / -name "coit-frontend"
           
         
  
