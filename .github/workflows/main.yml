@@ -28,7 +28,9 @@ jobs:
         run: |
           docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD
 
-     
+      - name: Build the container Image
+        run: | 
+           cd ..
       - name: Build the container Image
         working-directory: coit-frontend
         run: | 
