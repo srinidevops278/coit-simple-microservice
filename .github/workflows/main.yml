@@ -31,7 +31,7 @@ jobs:
      
       - name: Build the container Image
         run: | 
-          cd coit-frontend
+          cd srinidevops278/coit-simple-microservice/coit-frontend
           
       - name: Build the container Image
         run: |
