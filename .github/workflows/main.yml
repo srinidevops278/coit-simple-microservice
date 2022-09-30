@@ -32,5 +32,8 @@ jobs:
       - name: Build the container Image
         run: | 
           pwd
+      - name: Build the container Image
+        run: |
+          ls
         
  
