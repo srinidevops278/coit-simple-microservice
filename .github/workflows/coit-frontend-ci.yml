@@ -27,7 +27,7 @@ jobs:
           
       - name: Build the container Image
         run: | 
-          docker build coit-frontend -t 953533/coit-frontend:latest -f coit-frontend/Dockerfile-multistagee 
+          docker build coit-frontend -t 953533/coit-frontend:latest -f coit-frontend/Dockerfile-multistagee || true
           
       - name: Push the container Image
         run: | 
