@@ -32,8 +32,10 @@ jobs:
         run: |
           cd
       - name: Build the container Image
-        working-directory: srinidevops278/coit-simple-microservice/coit-frontend
+        
         run: | 
+          cd ../..
+          find / -name "coit-frontend"
           ls
           pwd
          
