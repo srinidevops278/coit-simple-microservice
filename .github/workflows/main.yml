@@ -33,4 +33,4 @@ jobs:
         run: |
           docker build coit-frontend -t 953533/coit-frontend:latest -f coit-frontend/Dockerfile-multistage
         
-   
+ 
